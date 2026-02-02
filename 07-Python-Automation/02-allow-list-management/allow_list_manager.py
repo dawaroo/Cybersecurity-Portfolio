@@ -1,4 +1,5 @@
 # Allow List Management Script
+# This script updates an IP allow list by removing unauthorized IP addresses
 
 import_file = "allow_list.txt"
 
