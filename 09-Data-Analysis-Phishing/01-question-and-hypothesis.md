@@ -1,43 +1,43 @@
-# Paso 1: Hacer la Pregunta
+# Step 1: Ask the Question
 
-## Pregunta
-¿Qué características de una URL o sitio web predicen mejor si un sitio es phishing o legítimo?
+## Question
+Which URL or website characteristics best predict whether a site is phishing or legitimate?
 
-## Beneficio
-Un analista SOC o de seguridad se beneficia al identificar qué indicadores técnicos son más confiables para priorizar alertas de phishing y automatizar reglas de detección, reduciendo el tiempo de triage y los falsos positivos.
+## Benefit
+A SOC or security analyst benefits from identifying which technical indicators are most reliable for prioritizing phishing alerts and automating detection rules, reducing triage time and false positives.
 
-## Tipo de análisis
-**Diagnóstico** — buscamos entender *por qué* ciertos sitios son clasificados como phishing (qué variables se correlacionan con esa etiqueta).
+## Analysis Type
+**Diagnostic** — the goal is to understand *why* certain sites are classified as phishing (which variables correlate with that label), rather than just describing how many exist.
 
-## Hipótesis inicial
-Se espera que los sitios de phishing tiendan a presentar URLs más largas, mayor cantidad de caracteres especiales, ausencia de HTTPS, uso de direcciones IP en vez de dominios, y mayor cantidad de subdominios en comparación con sitios legítimos.
+## Initial Hypothesis
+Phishing sites are expected to show longer URLs, more special characters, absence of HTTPS, use of IP addresses instead of domains, and more subdomains compared to legitimate sites.
 
 ---
 
-# Paso 2: Determinar los Datos Necesarios
+# Step 2: Determine the Necessary Data
 
-## Elementos de datos identificados
-- Longitud de la URL
-- Presencia de caracteres especiales (@, -, %, =, ~, etc.)
-- Uso de dirección IP en vez de nombre de dominio
-- Uso de HTTPS
-- Cantidad de subdominios (número de puntos en el dominio)
-- Palabras sospechosas dentro de la URL
-- Cantidad de dígitos en la URL
-- Entropía de la URL (aleatoriedad de caracteres)
+## Identified Data Elements
+- URL length
+- Presence of special characters (@, -, %, =, ~, etc.)
+- Use of IP address instead of domain name
+- HTTPS usage
+- Number of subdomains (dot count in the domain)
+- Suspicious words within the URL
+- Digit count in the URL
+- URL entropy (character randomness)
 
-## Fuentes investigadas
+## Sources Investigated
 - Kaggle — "Phishing URLs Dataset with Extracted Features" (victusadi)
-- Kaggle — "Phishing Websites Dataset" (basado en UCI Machine Learning Repository)
+- Kaggle — "Phishing Websites Dataset" (based on the UCI Machine Learning Repository)
 
 ---
 
-# Preguntas de reflexión
+# Reflection Questions
 
-**1. ¿Por qué es importante identificar la pregunta que debe responderse con el análisis antes de comenzar el proyecto?**
+**1. Why is it important to identify the question to be answered by the analysis before starting the project?**
 
-Porque la pregunta determina qué datos hay que recolectar, qué tipo de análisis aplicar y qué herramientas usar. Sin una pregunta clara, se corre el riesgo de recolectar datos irrelevantes o de perder tiempo analizando información que no responde a ninguna necesidad real. En seguridad, esto equivale a investigar sin saber qué se está buscando.
+Because the question determines what data needs to be collected, what type of analysis to apply, and what tools to use. Without a clear question, there's a risk of collecting irrelevant data or wasting time analyzing information that doesn't address a real need. In security, this is equivalent to investigating without knowing what you're looking for.
 
-**2. Nombre algunas fuentes de datos abiertos para el análisis que encontró al buscar sus elementos de datos.**
+**2. Name some open data sources for the analysis found while searching for your data elements.**
 
-Kaggle (datasets "Phishing URLs Dataset with Extracted Features" y "Phishing Websites Dataset"), ambos basados en investigación académica sobre detección de phishing (UCI Machine Learning Repository).
+Kaggle ("Phishing URLs Dataset with Extracted Features" and "Phishing Websites Dataset" datasets), both based on academic research on phishing detection (UCI Machine Learning Repository).
