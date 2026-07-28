@@ -1,39 +1,39 @@
-# Análisis de Datos: Detección de Phishing por Características de URL
+# Data Analysis: Phishing Detection by URL Characteristics
 
-## Resumen
-Proyecto de análisis de datos enfocado en identificar qué características técnicas de una URL o sitio web son más útiles para predecir si se trata de un sitio de phishing o de un sitio legítimo.
+## Summary
+Data analysis project focused on identifying which technical characteristics of a URL or website are most useful for predicting whether a site is phishing or legitimate.
 
-## Contexto
-Proyecto desarrollado como parte del curso **"Fundamentos de Análisis de Datos"**, cursado a través de la beca **MICITT / PROCOMER (Talent Up)** vía **Cisco Networking Academy**.
+## Context
+Project developed as part of the "Fundamentals of Data Analysis" course, completed through the MICITT / PROCOMER (Talent Up) scholarship via Cisco Networking Academy.
 
-## Pregunta de investigación
-¿Qué características de una URL o sitio web (longitud de la URL, uso de dirección IP en vez de dominio, presencia de HTTPS, edad del dominio, símbolos especiales, etc.) predicen mejor si un sitio es phishing o legítimo?
+## Research Question
+Which URL/website characteristics (URL length, use of IP address instead of domain, HTTPS presence, domain age, special characters, etc.) best predict whether a site is phishing or legitimate?
 
-## Motivación / Beneficio
-Un analista SOC o de seguridad se beneficia al identificar qué indicadores técnicos son más confiables para priorizar alertas de phishing y automatizar reglas de detección (por ejemplo, en un SIEM o filtro de correo), reduciendo el tiempo de triage y los falsos positivos.
+## Motivation / Benefit
+A SOC or security analyst benefits from identifying which technical indicators are most reliable for prioritizing phishing alerts and automating detection rules (e.g., in a SIEM or email filter), reducing triage time and false positives.
 
-## Metodología
-- **Tipo de análisis:** Diagnóstico (con componente descriptivo)
-- **Fuente de datos:** _pendiente — ver `data/README.md`_
-- **Herramientas:** _se actualizará conforme avance el curso (Excel / SQL / Tableau)_
+## Methodology
+- **Analysis type:** Diagnostic (with a descriptive component)
+- **Data source:** _pending — see `data/README.md`_
+- **Tools:** _to be updated as the course progresses (Excel / SQL / Tableau)_
 
-## Hallazgos principales
-_Se completará al finalizar el análisis (Módulos 4-8 del curso)._
+## Key Findings
+_To be completed at the end of the analysis (Modules 4-8)._
 
-## Habilidades demostradas
-- Definición de preguntas analíticas
-- Recolección e investigación de datos
-- Limpieza y preparación de datos
-- Análisis estadístico descriptivo
-- Consultas SQL
-- Visualización de datos (Tableau)
-- Relevancia directa para ciberseguridad: identificación de indicadores de phishing
+## Skills Demonstrated
+- Defining analytical questions
+- Data collection and research
+- Data cleaning and preparation
+- Descriptive statistical analysis
+- SQL queries
+- Data visualization (Tableau)
+- Direct relevance to cybersecurity: identifying phishing indicators
 
-## Estructura del proyecto
-- `01-question-and-hypothesis.md` — Pregunta, beneficio, tipo de análisis e hipótesis inicial
-- `02-data-sources.md` — Fuentes de datos identificadas
-- `03-cleaning-and-prep.md` — Limpieza y preparación de datos
-- `04-analysis.md` — Análisis estadístico y hallazgos
-- `05-visualization/` — Dashboards y gráficos (Tableau)
-- `06-sql-queries.sql` — Consultas SQL utilizadas
-- `data/` — Referencia al dataset utilizado
+## Project Structure
+- `01-question-and-hypothesis.md` — Question, benefit, analysis type, and initial hypothesis
+- `02-data-sources.md` — Identified data sources
+- `03-cleaning-and-prep.md` — Data cleaning and preparation
+- `04-analysis.md` — Statistical analysis and findings
+- `05-visualization/` — Dashboards and charts (Tableau)
+- `06-sql-queries.sql` — SQL queries used
+- `data/` — Dataset reference
