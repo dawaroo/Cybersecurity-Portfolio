@@ -1,2 +1,0 @@
--- Consultas SQL para el análisis de phishing
--- Se completará al llegar a los Módulos 6-7 del curso (SQL)
