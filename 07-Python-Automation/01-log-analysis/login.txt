@@ -1,0 +1,11 @@
+2024-03-01 08:15:02 user=jsmith ip=192.168.1.10 status=success
+2024-03-01 08:20:11 user=admin ip=203.0.113.45 status=failed
+2024-03-01 08:20:14 user=admin ip=203.0.113.45 status=failed
+2024-03-01 08:20:17 user=root ip=203.0.113.45 status=failed
+2024-03-01 08:20:21 user=admin ip=203.0.113.45 status=failed
+2024-03-01 08:20:25 user=admin ip=203.0.113.45 status=failed
+2024-03-01 09:02:40 user=mgarcia ip=10.0.0.55 status=success
+2024-03-01 09:45:03 user=mgarcia ip=10.0.0.55 status=failed
+2024-03-01 10:12:48 user=lperez ip=192.168.1.23 status=success
+2024-03-01 11:30:00 system update client v2.4.1.7 installed
+2024-03-01 13:05:19 user=jsmith ip=999.168.1.10 status=failed
