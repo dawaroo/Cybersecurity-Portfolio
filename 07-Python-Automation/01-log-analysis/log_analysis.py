@@ -14,8 +14,9 @@ ip_addresses = []
 
 # Identify and extract IP addresses
 for entry in log_entries:
-    if entry.count(".") == 3:
-        ip_addresses.append(entry)
+    if entry.startswith("ip="):
+        ip = entry.split("=")[1]
+        ip_addresses.append(ip)
 
 # Display extracted IP addresses
 print("Extracted IP addresses:\n")
